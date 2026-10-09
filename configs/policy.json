@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "default_action": "allow",
+  "rules": [
+    {
+      "domain": "blocked.example",
+      "action": "block",
+      "reason": "Blocked by company policy"
+    },
+    {
+      "domain": "*.social.example",
+      "action": "block",
+      "reason": "Social category is restricted"
+    }
+  ]
+}

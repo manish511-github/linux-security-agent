@@ -1,0 +1,15 @@
+# Go build and test output
+/bin/
+*.test
+*.out
+
+# Local configuration and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
